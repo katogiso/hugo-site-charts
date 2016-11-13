@@ -1,0 +1,35 @@
+baseurl            = "http://example.com/"
+title              = "Hugo + Chartjs + Bootstrap( hugo-dark-thema )"
+languageCode       = "en-us"
+
+theme              = "hugo-darkdoc-theme"
+pygmentsUseClasses = true
+
+[params]
+# General information
+author      = "So KATOGI"
+description = "a good description"
+copyright   = "Released under my prefered license"
+
+#demo website
+demo_site = "http://example.com"
+
+# Repository
+
+version = "1.0.0"
+favicon = ""
+
+permalink = "#"
+
+[social]
+
+
+[[menu.main]]
+name   = "Chartjs"
+url    = "/chartjs/"
+weight = 0
+
+[[menu.main]]
+name   = "D3js"
+url    = "/d3js/"
+weight = 10
